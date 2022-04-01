@@ -1,2 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 45px 0px rgba(252, 186, 3);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 5px 100px 0px rgb(252, 186, 3);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 45px 0px rgba(252, 186, 3);
+        transform: translatey(0px);
+    }
+}
