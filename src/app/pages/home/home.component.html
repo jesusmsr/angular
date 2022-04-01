@@ -1,25 +1,39 @@
 <div class="home-container">
+
     <div class="top-section">
         <div id="big-circle"
             class="circle"
             appParallax
-            [ratio]="0.2"></div>
+            [ratio]="0.2"
+            [direction]="'up'"></div>
         <div class="circle"
             id="medium-circle"
             appParallax
-            [ratio]="0.5"></div>
+            [ratio]="0.5"
+            [direction]="'up'"></div>
         <div class="circle"
             id="small-circle"
             appParallax
-            [ratio]="0.7"></div>
+            [ratio]="0.7"
+            [direction]="'up'"></div>
         <h1 class="home-name-title first-name">Jesús Sánchez</h1>
         <h3 class="home-name-title subtext">Web developer</h3>
     </div>
-    <div class="bottom-section">
+    <div class="bottom-section"
+        appFadeOnScroll
+        [ratio]="0.4">
         <h1 class="home-name-title second-name">Rodríguez</h1>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="button-section">
+            <i class="fa-brands fa-github icon"></i>
+            <i class="fa-brands fa-linkedin icon"></i>
+            <i class="fa-solid fa-at icon"></i>
+        </div>
+        <div class="dark-section">
+            <h1 animateOnScroll
+                animationName="animate__animated animate__fadeIn"
+                offset="500">About me</h1>
+
+        </div>
     </div>
 
 </div>

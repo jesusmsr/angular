@@ -18,6 +18,7 @@
     flex: 1 1 auto;
     background-color: rgb(233, 233, 233);
     z-index: 20;
+    padding-bottom: 150px;
 }
 
 .home-name-title {
@@ -74,4 +75,29 @@
     margin-top: 30vh;
     right: 5vw;
     z-index: 8;
+}
+
+.button-section {
+    width: 200px;
+    padding: 15px;
+    margin-right: 35px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.dark-section {
+    height: 100vh;
+    padding: 20px;
+    margin-top: 600px;
+    color: white;
 }
