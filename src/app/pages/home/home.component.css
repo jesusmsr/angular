@@ -23,7 +23,7 @@
 
 .home-name-title {
     position: absolute;
-    font-family: 'Roboto mono';
+    font-family: 'Roboto Mono';
 }
 
 .first-name {
@@ -98,6 +98,61 @@
 .dark-section {
     height: 100vh;
     padding: 20px;
-    margin-top: 600px;
+    margin-top: 400px;
     color: white;
+}
+
+/*Terminal*/
+.terminal-container {
+    border: 2px solid white;
+    width: 750px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dots-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90px;
+    float: right;
+    padding: 5px;
+}
+
+.terminal-content{
+    height: 100%;
+    padding: 10px;
+    font-family: 'Cutive Mono';
+}
+
+.sidebar{
+    width: 100px;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.text-item{
+    height: 15px;
+    border-radius: 20px;
+    background-color: grey;
 }

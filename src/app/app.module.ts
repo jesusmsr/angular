@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ParallaxDirective } from './directives/parallax.directive';
 import { FadeOnScrollDirective } from './directives/fade-on-scroll.directive';
-import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 @NgModule({
   declarations: [
@@ -17,9 +16,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AnimateOnScrollModule.forRoot()
-  ],
+    AppRoutingModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
